@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -24,9 +25,10 @@
         android:id="@+id/asgas"
         android:layout_width="244dp"
         android:layout_height="100dp"
-        android:layout_marginBottom="28dp"
+        android:layout_marginBottom="80dp"
         app:layout_constraintBottom_toTopOf="@+id/btnComenzar"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.542"
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/middas_logo" />
 
@@ -34,10 +36,10 @@
         android:id="@+id/btnComenzar"
         style="@style/Base.TextAppearance.AppCompat.Medium"
         android:layout_width="205dp"
-        android:layout_height="0dp"
+        android:layout_height="51dp"
         android:layout_marginTop="417dp"
         android:layout_marginBottom="70dp"
-        android:background="#7d78e2"
+        android:background="@color/fondo_botones"
         android:text="Comenzar"
         android:textSize="28dp"
         android:textStyle="bold"

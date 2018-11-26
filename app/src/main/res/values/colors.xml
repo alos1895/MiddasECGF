@@ -5,4 +5,5 @@
     <color name="colorAccent">#D81B60</color>
     <color name="fondo">#FFFF</color>
     <color name="letras">#403e3e</color>
+    <color name="fondo_botones">#7d78e2</color>
 </resources>
