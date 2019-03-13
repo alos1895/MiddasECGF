@@ -6,5 +6,16 @@
     <string name="nav_header_title">Android Studio</string>
     <string name="nav_header_subtitle">android.studio@android.com</string>
     <string name="nav_header_desc">Navigation header</string>
-    <string name="action_settings">Settings</string>
+    <string name="informacion">Informacion</string>
+    <string name="dispo_vin">Dispositivos vinculados</string>
+    <string name="history">Historial</string>
+
+    <!--Texto de imagenes-->
+    <string name="btnConDesc_back">Boton Regresar</string>
+    <string name="activity_title_History">Historial</string>
+    <string name="number_ss">Número de Seguro Social</string>
+    <string name="pacientenombre">Paciente: Maria Alvarez Garcia</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

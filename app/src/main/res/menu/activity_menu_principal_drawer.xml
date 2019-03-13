@@ -3,35 +3,59 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:showIn="navigation_view">
 
-    <group android:checkableBehavior="single">
+    <group
+        android:id="@+id/menuPrincipal"
+        android:checkableBehavior="single">
         <item
-            android:id="@+id/nav_camera"
-            android:icon="@drawable/ic_menu_camera"
-            android:title="Import" />
+            android:id="@+id/nvHistorial"
+            android:icon="@drawable/point"
+            android:title="Historial de alertas" />
         <item
-            android:id="@+id/nav_gallery"
-            android:icon="@drawable/ic_menu_gallery"
-            android:title="Gallery" />
+            android:id="@+id/nvPromedioFCF"
+            android:icon="@drawable/point"
+            android:title="Promedio FCF" />
         <item
-            android:id="@+id/nav_slideshow"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="Slideshow" />
+            android:id="@+id/nvPromedioFC"
+            android:icon="@drawable/point"
+            android:title="Promedio FC" />
         <item
-            android:id="@+id/nav_manage"
-            android:icon="@drawable/ic_menu_manage"
-            android:title="Tools" />
+            android:id="@+id/nvPromedioPA"
+            android:icon="@drawable/point"
+            android:title="Promedio FA" />
+        <item
+            android:id="@+id/nvConfiguracion"
+            android:icon="@drawable/point"
+            android:title="Configuración" />
+
     </group>
 
-    <item android:title="Communicate">
+    <item android:title="Historia clínica">
         <menu>
             <item
-                android:id="@+id/nav_share"
-                android:icon="@drawable/ic_menu_share"
-                android:title="Share" />
+                android:id="@+id/nvConProxima"
+                android:icon="@drawable/point"
+                android:title="Consultas próximas" />
             <item
-                android:id="@+id/nav_send"
-                android:icon="@drawable/ic_menu_send"
-                android:title="Send" />
+                android:id="@+id/nvMedicamentos"
+                android:icon="@drawable/point"
+                android:title="Medicamentos" />
+        </menu>
+    </item>
+
+    <item android:title="Comunicacion">
+        <menu>
+            <item
+                android:id="@+id/nvClinica"
+                android:icon="@drawable/point"
+                android:title="Clinica mas cercana" />
+            <item
+                android:id="@+id/nvCompartir"
+                android:icon="@drawable/point"
+                android:title="Compartir mi estado" />
+            <item
+                android:id="@+id/nvEnvioAlerta"
+                android:icon="@drawable/point"
+                android:title="Enviar alerta" />
         </menu>
     </item>
 

@@ -3,7 +3,9 @@
     <color name="colorPrimary">#008577</color>
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
-    <color name="fondo">#FFFF</color>
-    <color name="letras">#403e3e</color>
-    <color name="fondo_botones">#7d78e2</color>
+    <!-- Colors APP-->
+    <color name="white">#FFFF</color>
+    <color name="write">#4C4C57</color>
+    <color name="black">#403e3e</color>
+    <color name="middas">#7d78e2</color>
 </resources>

@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/fondo"
+    android:background="@color/white"
     tools:context=".BienvenidaActivity">
 
     <ImageView
@@ -26,40 +26,50 @@
         android:layout_width="244dp"
         android:layout_height="100dp"
         android:layout_marginBottom="80dp"
-        app:layout_constraintBottom_toTopOf="@+id/btnComenzar"
+        app:layout_constraintBottom_toTopOf="@+id/btnStart"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.542"
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/middas_logo" />
 
+    <EditText
+        android:id="@+id/etNumberSS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintBottom_toTopOf="@+id/btnStart"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/asgas"
+        android:textColor="@color/write"/>
+
     <Button
-        android:id="@+id/btnComenzar"
+        android:id="@+id/btnStart"
         style="@style/Base.TextAppearance.AppCompat.Medium"
         android:layout_width="205dp"
         android:layout_height="51dp"
-        android:layout_marginTop="417dp"
-        android:layout_marginBottom="70dp"
-        android:background="@color/fondo_botones"
+        android:layout_marginTop="496dp"
+        android:background="@color/middas"
         android:text="Comenzar"
         android:textSize="28dp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/textView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/txvNss"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="6dp"
-        android:text="Todos los derechos reserados"
-        android:textColor="#000"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:text="@string/number_ss"
+        app:layout_constraintBottom_toTopOf="@+id/etNumberSS"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnComenzar" />
+        app:layout_constraintTop_toBottomOf="@+id/asgas"
+        android:textColor="@color/write"/>
 
 
 </android.support.constraint.ConstraintLayout>
